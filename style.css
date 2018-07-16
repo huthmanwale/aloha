@@ -1,0 +1,121 @@
+/* Inside your style.css file... */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.nav {
+  border: 1px white;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-height: 805px;
+}
+
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  max-height: 805px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  display: flex;
+  border: 1px solid white;
+}
+
+.column {
+  border: 1px solid white;
+}
+
+.rowTwo {
+  display: flex;
+  border: 1px solid white;
+}
+
+.columnTwo {
+  border: 1px solid white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image3 {
+  border: 2px white;
+  background-image: url("./images/wave-bkgd.jpg");
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.media {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mediaOne {
+  padding: 2rem;
+  left: 0;
+}
+
+.mediaOne li {
+  margin: 10px 0;
+}
+
+.mediaTwo {
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  height: 500px;
+}
