@@ -72,6 +72,11 @@
 
 .column {
   border: 1px solid white;
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 0;
+  left: 0;
 }
 
 .rowTwo {
