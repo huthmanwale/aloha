@@ -80,7 +80,7 @@
 }
 
 .rowTwo {
-  display: flex;
+  display: inline-flex;
   border: 1px solid white;
 }
 
@@ -121,14 +121,6 @@
 
 .mediaOne li {
   margin: 10px 0;
-}
-
-.mediaTwo {
-  padding: 2rem;
-  position: absolute;
-  right: 0;
-  flex-direction: column;
-  height: 500px;
 }
 
 .centeredTwo {
