@@ -1,30 +1,41 @@
 <!DOCTYPE html>
- <html>
-    <head>
+  <html>
+   <head>
     <title>The aloha page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="C:\Users\16473\Documents\RED\flickity-docs\flickity.css" media="screen">
-    
     <script src="jquery.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""/>
     </head>
     <body>
   
-    <div>
-    <img src="C:\Users\16473\Documents\RED\images\aloha-logo.svg" alt="aloha logo" height="150" width="160">
-    <img style="float: right;" alt="cart icon" src="C:\Users\16473\Documents\RED\images\cart-icon.svg" />
-   <ul class="nav">
-   <li><a href="ABOUT">ABOUT</a></li>
-   <li><a href="SHOP">SHOP</a></li>
-   <li><a href="FEATURED">FEATURED</a></li>
-   <li><a href="UPDATES">UPDATES</a></li>
+  <header class="headerContainer">
+
+    <div class="fristWrapper">
+
+      <div class="firstContainer">
+    <img src="C:\Users\16473\Documents\RED\images\aloha-logo.svg" alt="Aloha | Shopping for Dresses, Shorts, Shirts and Backpacks" />
+  </div>
+
+  <ul class="nav">
+   <li><a href="#ABOUT">ABOUT</a></li>
+   <li><a href="#SHOP">SHOP</a></li>
+   <li><a href="#FEATURED">FEATURED</a></li>
+   <li><a href="#UPDATES">UPDATES</a></li>
  </ul>
+
+ <div class="shoppingCart">
+ <img  src="C:\Users\16473\Documents\RED\images\cart-icon.svg" alt="cart icon" />
+ <span class="cart-items">0</span>
+</div>
  </div>
+</header>
 
  <div class="container">
-   <img class= "image1"  src="C:\Users\16473\Documents\RED\images\flower-bkgd.jpg"/>
-   <img class="image2" src="C:\Users\16473\Documents\RED\images\banner-girl.png" />
+   <img class= "image1"  src="C:\Users\16473\Documents\RED\images\flower-bkgd.jpg" alt="trendy | fashion "/>
+   <img class="image2" src="C:\Users\16473\Documents\RED\images\banner-girl.png" alt="banner-girl" />
    <div class="centered"><font size="25" color="white">NEW COLLECTION<br>SPRING SUMMMER 2016</font></div>
  </div>
 
@@ -77,6 +88,7 @@
   <p>Dresses</p>
   <h4><font color="red">Checked Stretch Dress</font></h4>
   <p>$129.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
    </div>
 
    <div class="columnTwo">
@@ -84,20 +96,55 @@
   <p>Bags</p>
   <h4><font color="red">Blue Hipster Backpack</font></h4>
   <p>$69.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
    </div>
 
    <div class="columnTwo">
   <img src="C:\Users\16473\Documents\RED\images\demin-overall-shorts.jpg" alt="demin-overall-shorts" style="width:100%">
   <p>Shorts</p>
   <h4><font color="red">Denim Overall Shorts</font></h4>
-  <p>$69.00</p>
+  <p>$89.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
    </div>
 
    <div class="columnTwo">
   <img src="C:\Users\16473\Documents\RED\images\pink-dotted-dress.jpg" alt="pink-dotted-dress" style="width:100%">
   <p>Dresses</p>
   <h4><font color="red">Pink Dotted Dress</font></h4>
-  <p>$129.00</p>
+  <p>$99.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
+   </div>
+
+   <div class="columnTwo">
+  <img src="C:\Users\16473\Documents\RED\images\blue-silk-dress.jpg" alt="blue-silk-dress" style="width:100%">
+  <p>Dresses</p>
+  <h4><font color="red">Blue Silk Dress</font></h4>
+  <p>$119.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
+   </div>
+
+   <div class="columnTwo">
+  <img src="C:\Users\16473\Documents\RED\images\cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt" style="width:100%">
+  <p>T-shirt</p>
+  <h4><font color="red">Cotton Yellow T-shirt</font></h4>
+  <p>$39.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
+   </div>
+
+<div class="columnTwo">
+  <img src="C:\Users\16473\Documents\RED\images\cotton-blue-shirt.jpg" alt="cotton-blue-shirt" style="width:100%">
+  <p>T-shirt</p>
+  <h4><font color="red">Cotton Blue Shirt</font></h4>
+  <p>$89.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
+   </div>
+
+<div class="columnTwo">
+  <img src="C:\Users\16473\Documents\RED\images\stretch-knit-dress.jpg" alt="stretch-knit-dress" style="width:100%">
+  <p>Dresses</p>
+  <h4><font color="red">Stretch Knit Dress</font></h4>
+  <p>$169.00</p>
+  <button type="button" class="add-to-cart">Add to cart</button>
    </div>
 
   </div>
@@ -109,10 +156,7 @@
    upcoming sale, and get free style tips from our blog.Unsubscribe at any time.</p>
    <form>
    	<input type="text" name="email" placeholder=" Your Email "> 
-   	<button type="submit" name="submit">Subscribe</button> 
-
-   		
-
+   	<button type="submit" name="submit" >Subscribe</button> 
 
 	</input>
    	</input>
@@ -144,10 +188,10 @@
   </div>
   </footer>
 
-  
-  
+    
    <script src="C:\Users\16473\Documents\RED\flickity-docs\flickity.pkgd.min.js"></script>
    <script src="source.js"></script>
+   <script src="tota11y.min.js"></script>
     </body>
  </html>
    </body>
