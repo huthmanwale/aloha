@@ -3,6 +3,14 @@
 * {
   box-sizing: border-box;
   outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
 }
 
 .headerContainer {
@@ -90,11 +98,14 @@
 }
 
 .container {
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%),
+    url("./images/banner-girl.png") no-repeat center 4.3rem,
+    url("./images/flower-bkgd.jpg") repeat-x center;
+  background-size: cover, 9.75rem auto, cover;
+  color: #fff;
+  height: 26.25rem;
+  margin-top: 116px;
   position: relative;
-  text-align: center;
-  color: white;
-  top: 0;
-  left: 0;
 }
 
 .firstContainer img {
@@ -108,32 +119,35 @@
   order: 1;
 }
 
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  max-height: 805px;
+.about {
+  width: 100%;
+  height: 10.25rem;
 }
 
-.image2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-size: contain;
-  max-height: 805px;
+.about-wrapper {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 1.05rem;
+  line-height: 2;
 }
 
+.italic {
+  font-weight: normal;
+  font-style: italic;
+}
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: 00;
+  color: #fff;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.centered p {
+  padding-left: 150px;
 }
 
 .row {
