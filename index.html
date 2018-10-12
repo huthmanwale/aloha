@@ -27,8 +27,7 @@
  </ul>
 </nav>
  <div class="shoppingCart">
- <img  src="./images/cart-icon.svg" alt="cart icon" />
- <span class="cart-items">0</span>
+  <button type="button" class="aloha-cart-btn"><span id="items-in-cart" class="items-in-cart hide-item">0</span><img src="./images/cart-icon.svg" alt="Button icon"/></button>
 </div>
  </div>
 </header>
@@ -40,8 +39,8 @@
       </div>
  </section>
 
- <section class="about">
-  <div  class="about-wrapper">
+ <section class="about" >
+  <div  class="about-wrapper" id="ABOUT">
     <h2><span class="italic">Hand-Crafted</span> Styles</h2>
     <p>Aloha ApparelCo. sells only the finest ready to  
     travel clothing. Browse our <br>current selection of 
@@ -49,39 +48,42 @@
   </div>
  </section>
 
- <div class="row">
+ <div class="row" id="SHOP">
    <div class="column">
   <img src="./images/mens-category.jpg" alt="mens-category" style="width:100%">
-  <div class="centeredTwo"><font size="25" color="white">MENS</font></div>
+  <div class="centeredTwo"><font size="25" color="white"><a href="#">MENS</a></font></div>
    </div>
    <div class="column">
   <img src="./images/trends-category.jpg" alt="trends-category" style="width:100%">
-  <div class="centeredTwo"><font size="25" color="white">TRENDS</font></div>
+  <div class="centeredTwo"><font size="25" color="white"><a href="#">TRENDS</a></font></div>
    </div>
    <div class="column">
   <img src="./images/glasses-category.jpg" alt="glasses-category" style="width:100%">
-  <div class="centeredTwo"><font size="25" color="white">GLASSES</font></div>
+  <div class="centeredTwo"><font size="25" color="white"><a href="#">GLASSES</a></font></div>
    </div>
  </div>
 
- <div class="row">
+ <div class="row" id="ABOUT">
  <div class="column">
   <img src="./images/sale-category.jpg" alt="sale-category" style="width:100%">
-  <div class="centeredTwo"><font size="25" color="white">SALES</font></div>
+  <div class="centeredTwo"><font size="25" color="white"><a href="#">SALES</a></font></div>
    </div>
    <div class="column">
   <img src="./images/bags-category.jpg" alt="bags-category" style="width:100%">
-  <div class="centeredTwo"><font size="25" color="white">BAGS</font></div>
+  <div class="centeredTwo"><font size="25" color="white"><a href="#">BAGS</a></font></div>
    </div>
    <div class="column">
   <img src="./images/womens-category.jpg" style="width:100%">
-  <div class="centeredTwo"><font size="25" color="white">WOMENS</font></div>
+  <div class="centeredTwo"><font size="25" color="white"><a href="#">WOMENS</a></font></div>
    </div>
  </div>
 
- <div>
+
+<section class="productContainer">
+ <div id="FEATURED">
  <h2 align="center"><em>Most-Loved</em> Products</h2>
  </div>
+
 
 
  <div class="rowTwo">
@@ -91,7 +93,7 @@
   <p>Dresses</p>
   <h4><font color="red">Checked Stretch Dress</font></h4>
   <p>$129.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
    <div class="columnTwo">
@@ -99,7 +101,7 @@
   <p>Bags</p>
   <h4><font color="red">Blue Hipster Backpack</font></h4>
   <p>$69.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+ <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
    <div class="columnTwo">
@@ -107,7 +109,7 @@
   <p>Shorts</p>
   <h4><font color="red">Denim Overall Shorts</font></h4>
   <p>$89.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
    <div class="columnTwo">
@@ -115,7 +117,7 @@
   <p>Dresses</p>
   <h4><font color="red">Pink Dotted Dress</font></h4>
   <p>$99.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
    <div class="columnTwo">
@@ -123,7 +125,7 @@
   <p>Dresses</p>
   <h4><font color="red">Blue Silk Dress</font></h4>
   <p>$119.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
    <div class="columnTwo">
@@ -131,7 +133,7 @@
   <p>T-shirt</p>
   <h4><font color="red">Cotton Yellow T-shirt</font></h4>
   <p>$39.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
 <div class="columnTwo">
@@ -139,7 +141,7 @@
   <p>T-shirt</p>
   <h4><font color="red">Cotton Blue Shirt</font></h4>
   <p>$89.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
 <div class="columnTwo">
@@ -147,13 +149,15 @@
   <p>Dresses</p>
   <h4><font color="red">Stretch Knit Dress</font></h4>
   <p>$169.00</p>
-  <button type="button" class="add-to-cart">Add to cart</button>
+  <button type="button" class="add-to-cart-btn">Add to cart</button>
    </div>
 
   </div>
+
+</section>
    
    
-   <div class="image3">
+   <div class="image3" id="UPDATES">
    <h2> <em>Sign-up</em> for <strong>Updates</strong></h2>
    <p>Stay updated on our latest product releases, be first to find out about<br>
    upcoming sale, and get free style tips from our blog.Unsubscribe at any time.</p>
@@ -174,6 +178,7 @@
    <section class="mediaOne">
    <p>@ 2016 Aloha Apparel Co.<br>
    Powered by HTML and CSS.<br></p>
+
    <p>604-604-6040. <u>info@alohaapparel.com</u><br></p>
    <p style="color:#696969">1490 W Broadway<br>
    Vancouver, BC, Canada  </p>
@@ -196,6 +201,4 @@
    <script src="source.js"></script>
    <script src="tota11y.min.js"></script>
     </body>
- </html>
-   </body>
 </html>
